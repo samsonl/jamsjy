@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_samsonl_jamsjy_1701255394338-push-trigger-input-set
+  identifier: Build_samsonl_jamsjy_1701255394338pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_samsonl_jamsjy_1701255394338
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
